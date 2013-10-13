@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link type="text/css" href="1.css" rel="stylesheet" media="screen" />
+<title>iDefine another layout - one column</title>
+<link rel="shortcut icon" href="http://monorom.com/favicon.ico" type="image/x-icon" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body  id="home">
+<div id="container">
+	<div id="banner" >
+ 		<h1>iDefine main Header</h1>
+	<div id="top_menu"> 
+		    <ul id="nav">
+		    <li id="nav-home"><a href="#">Home</a></li>
+ 		   <li id="nav-about"><a href="#">About</a></li>
+	 	   <li id="nav-archive"><a href="#">Archive</a></li>
+ 		   <li id="nav-lab"><a href="#">Lab</a></li>
+  		  <li id="nav-reviews"><a href="#">Reviews</a></li>
+  		  <li id="nav-contact"><a href="#">Contact</a></li>
+  		  </ul>
+		
+	</div>
+	</div>
+	<div id="left">
+		<h2>Menu left</h2>
+		<pre>
+#left {
+float: left;
+width: 200px;
+margin: 0px;
+padding: 0px;
+}
+</pre>
+
+	</div>
+	<div id="content">
+		<h2>Content</h2>
+
+<pre>#container {
+width: 800px;
+margin-bottom: 10px;
+margin-left: auto;
+margin-right: auto;
+background-color: #ff99cc;}</pre>
+
+<pre>#content {
+background-color: #ffffff;
+padding: 0px;
+margin-left: 200px;
+margin-right: 0px; }
+
+div#content { 
+min-height:600px;
+height:expression(this.scrollHeight > 600 ? "auto":"600px"); }</pre>
+	
+	</div>
+ 	<div id="footer"><h1>Footer</h1></div>
+</div>
+</body>
+</html>
